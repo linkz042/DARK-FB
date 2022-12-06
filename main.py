@@ -1871,7 +1871,7 @@ class Main_:
 		msin=""
 	def __check_update_(self, version_):
 		try:
-			version = requests.get("https://raw.githubusercontent.com/linkz042/DARK-FB/Xnxx/data/status.txt").text.strip()
+			version = requests.get("https://raw.githubusercontent.com/linkz042/DARK-FB/Xnxx/data/version.txt").text.strip()
 		except requests.exceptions.ConnectionError:
 			kotak("# UPS... SEPERTINYA JARINGAN ANDA TERPUTUS",M,C)
 			os.sys.exit()
